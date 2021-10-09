@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <style>
+        body{
+            background-color:  rgb(10, 49, 36);
+        }
+        h1{
+        background-color: rgb(28, 128, 94);
+        margin: auto;
+        width: 60%;
+        border: 5px solid #fff00f;
+        border-radius: 10px 10px 10px 10px;
+        padding: 10px;
+        }
+        .form{
+            background-color: rgb(28, 128, 94);
+            border-radius: 10px 10px 10px 10px ;
+            border: 5px solid #fff00f;
+            padding-left: 50px;
+            margin: auto;
+            width: 60%;
+        }
+        .h{
+
+padding-left: 50px;
+            margin: auto;
+            width: 60%;
+            padding-bottom: 5px;
+        }
+   
+    </style>
+</head>
+<body>
+    <h1>Sign in or Sign Up</h1><br><br>
+    <form class="form" action="index.html" method="GET">
+        <div>
+            <h2 class="h">Signup</h2>
+        <label for="name">First Name:</label>
+        <input type="text" name="name" id="name" placeholder="First Name" required>
+        </div>
+        <div><label for="name">Last Name:</label>
+        <input type="text" name="name" id="name" placeholder="Last Name"></div>
+        <div><label for="date">Birth Date:</label>
+            <input type="date" name="date" id="date" required>
+        </label></div>
+        <div>
+        <label for="Password">Password:</label>
+        <input type="password" name="Password" required>
+        </div><div>
+             <label for="Verify-Password">Verify Password:</label>
+        <input class="Verify-Password" type="Password" name="Verify-Password" required>
+        </div>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
