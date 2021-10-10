@@ -11,3 +11,12 @@ function secondFunction() {
 
 btn.addEventListener("click", firstFunction);
 btn.addEventListener("click", secondFunction);
+
+
+
+var field = document.querySelector('textareas');
+
+field.onfocus = function(){
+    this.setAttribute('placeholder', '');
+    this.style.borderColor = '#333';
+}
