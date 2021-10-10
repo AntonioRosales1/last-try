@@ -50,6 +50,7 @@
         margin-bottom: 10px;
         resize: none;
         outline: none;
+        transition: .5s;
 
     }
     input[type="submit"], button{
@@ -68,6 +69,9 @@
     button{
         color: #333;
         background-color: transparent;
+    }
+    .btnOne{
+        display: none;
     }
     </style>
 </head>
@@ -94,9 +98,9 @@
         <h2>Leave Us a Comment</h2>
         <form>
             <textarea placeholder="Add Your Comment" name="comment1" id="comment1" cols="18" rows="5"></textarea></form>
-        <div class="btn">
+        <div class="btnOne">
             <input type="Submit" value="Comment">
-            <button>Cancel</button>
+            <button id="clear">Cancel</button>
         </div>
     </div>
 
