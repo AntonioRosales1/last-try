@@ -3,10 +3,12 @@ let btn = document.getElementById("btn");
 function firstFunction(e) {
     e.preventDefault();
     btn.innerHTML = "Hey! Whats up!!!!"
+   
 }
 
 function secondFunction() {
-    btn.style.background = "red";
+    btn.style.background = "yellow";
+    
 }
 
 btn.addEventListener("click", firstFunction);
@@ -14,8 +16,8 @@ btn.addEventListener("click", secondFunction);
 
 
 
-var field = document.querySelector('textareas');
-var backUp = feild.getAttribute('placeholder');
+var field = document.querySelector('textAreas');
+var backUp = field.getAttribute('placeholder');
 var btnOne = document.querySelector('.btnOne');
 var clear = document.getElementById('clear');
 
