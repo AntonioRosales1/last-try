@@ -2,7 +2,7 @@ let btn = document.getElementById("btn");
 
 function firstFunction(e) {
     e.preventDefault();
-    btn.innerHTML = "I love you"
+    btn.innerHTML = "Hey! Whats up!!!!"
 }
 
 function secondFunction() {
