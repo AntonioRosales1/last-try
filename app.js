@@ -16,7 +16,8 @@ btn.addEventListener("click", secondFunction);
 
 
 
-var field = document.querySelector('textAreas');
+var field = document.querySelector('textArea');
+
 var backUp = field.getAttribute('placeholder');
 var btnOne = document.querySelector('.btnOne');
 var clear = document.getElementById('clear');
